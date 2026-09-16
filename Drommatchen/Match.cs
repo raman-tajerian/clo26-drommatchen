@@ -1,32 +1,17 @@
 public class Match
 {
-    // Privata fält
-    private string _hemmalag;
-    private string _bortalag;
-    private string _datum;
-
-    // Properties — publik get, privat set
-    public string Hemmalag
-    {
-        // get och privat set för Hemmalag 
-    }
-
-    public string Bortalag
-    {
-        // get och privat set för Bortalag
-    }
-
-    public string Datum
-    {
-        // get och privat set för Datum
-    }
-
+    public string Hemmalag { get; private set; }
+    public string Bortalag { get; private set; }
+    public string Datum { get; private set; }
+    
     // Pluspoäng om ni kommer på hur man kan minska ner koden med properties :)
 
     // Konstruktor
     public Match(string hemmalag, string bortalag, string datum)
     {
-        // TODO: tilldela de privata fälten
+        Hemmalag = hemmalag;
+        Bortalag = bortalag;
+        Datum = datum;
     }
 
     // Metod 1: skriv ut matchens lag och datum
