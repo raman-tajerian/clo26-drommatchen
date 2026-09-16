@@ -32,25 +32,17 @@ namespace Drommatchen
             get { return _mal; }
             private set { _mal = value; }
         }
+
+        // Konstruktor
+        public Spelare(string namn, int nummer, string position, int mal)
+        {
+            _namn = namn;
+            _nummer = nummer;
+            _position = position;
+            _mal = mal;
+
+        }
+
     }
 }
 
-/*
-    public int Nummer
-    {
-        // Skapa get och privat set för Nummer
-    }
-
-    public string Position
-    {
-        // Skapa get och privat set för Position
-    }
-
-    // Konstruktor
-    public Spelare(string namn, int nummer, string position)
-    {
-        // TODO: tilldela de privata fälten
-    }
-}
-
-*/
