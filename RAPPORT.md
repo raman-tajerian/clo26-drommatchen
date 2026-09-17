@@ -1,10 +1,12 @@
 Rapport
 
+```
 Kurs: Grundläggande OOP i C#
 Uppgift: Drömmatchen
 Grupp: Team Faun (Raman Tajerian och Martin Bäcklund)
 Datum: 2026-09-17
 GitHub: raman-tajerian och Martin-Backlund / Länk till repo: https://github.com/raman-tajerian/clo26-drommatchen/tree/main/Drommatchen
+```
 
 
 Klasserna
@@ -37,6 +39,7 @@ Anledningen till att vi valde för ÄrMatchhjälte att returnera en bool iställ
 
 Git-logg
 
+```
 $ git log --oneline
 976df4b (HEAD -> main, origin/main, origin/HEAD) Lagt till using system i Match cs
 90181a3 löste konflikter, lade till metod 3 samt relevanta kommentarer
@@ -58,6 +61,7 @@ c898b9a Merge branch 'main' of https://github.com/raman-tajerian/clo26-drommatch
 35825ed Solutionfile added at root
 34de7d5 refactor: gör property-kroppar tomma — studerande implementerar själva
 66f4917 init: starterrepo för Drömmatchen (Inlämning 1)
+```
 
 
 
