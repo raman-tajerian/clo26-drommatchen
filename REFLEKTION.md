@@ -1,11 +1,10 @@
-´´´
 Reflektion
-
+```
 Namn: Raman Tajerian
 Kurs: Grundläggande OOP i C# 
 Uppgift: Drömmatchen
 Datum: 2026-09-17
-´´´
+```
 Vad var svårast att lösa?
 
 Jag kände mig överlag ändå rätt bekväm med uppgiften eftersom jag valde att ta till mig uppgiften noga och anteckna steg för steg hur jag ville strukturera min kod. Trots det fastnade jag några gånger eftersom allt inte går som planerat, speciellt i grupp. Det var specifikt en sak som jag fastnade på. När det kom till properties hade jag i min kodfil skrivit med “gamla metoden” medan min gruppmedlem skrivit med auto-properties. Då fick vi börja diskutera och bolla med varandra vilken vi tyckte var bäst och det var mycket fram och tillbaka men beslutade till slut för att skriva med auto properties på grund av dess läsbarhet och enkelhet i koppling till denna specifika uppgift. 
@@ -18,7 +17,6 @@ Hur fungerade samarbetet i gruppen?
 
 Vad fungerade bra?
 Vår kommunikation fungerade väldigt bra, både när vi diskuterade tidsplan, när vi ville börja, hur vi skulle dela upp arbetet, vad som saknas och kan bli bättre i vår kod. Det var givande att kunna diskutera konstruktivt med varandra genom hela arbetet. 
-
 
 
 Vad var svårt?
