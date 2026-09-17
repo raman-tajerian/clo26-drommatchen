@@ -24,8 +24,8 @@ namespace Drommatchen
             Console.WriteLine();
 
             //Matchhjälte eller inte
-            Console.WriteLine($"ÄrMatchhjälte - {messi.Namn}: {drommatchen.ArMatchhjalte(messi)}");
-            Console.WriteLine($"ÄrMatchhjälte - {raul.Namn}: {drommatchen.ArMatchhjalte(raul)}");
+            Console.WriteLine($"ÄrMatchhjälte - {messi.Namn}: {drommatchen.ÄrMatchhjälte(messi)}");
+            Console.WriteLine($"ÄrMatchhjälte - {raul.Namn}: {drommatchen.ÄrMatchhjälte(raul)}");
 
         }
 
