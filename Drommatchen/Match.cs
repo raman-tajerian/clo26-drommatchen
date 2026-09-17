@@ -6,9 +6,8 @@ namespace Drommatchen
         public string Bortalag { get; private set; }
         public string Datum { get; private set; }
 
-        // Pluspoäng om ni kommer på hur man kan minska ner koden med properties :)
 
-        // Konstruktor
+        // Konstruktor: skapar en match med hemmalag, bortalag och datum
         public Match(string hemmalag, string bortalag, string datum)
         {
             Hemmalag = hemmalag;
@@ -27,6 +26,11 @@ namespace Drommatchen
         public void AnnounceraMålskytt(Spelare spelare)
         {
             Console.WriteLine($"Namn: {spelare.Namn} Nummer: {spelare.Nummer} Position: {spelare.Position}");
+        }
+        // Metod 3: skriv ut matchhjälte om en spelare gjort minst ett mål
+        public bool ÄrMatchhjälte(Spelare spelare)
+        {
+            return spelare.Mal > 0;
         }
     }
 
