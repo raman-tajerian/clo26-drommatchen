@@ -1,10 +1,43 @@
-// TODO: Skapa minst 2 spelare
-// Spelare spelare1 = new Spelare("Namn", nummer, "Position");
-// Spelare spelare2 = new Spelare(...);
+using System;
 
-// TODO: Skapa 1 match
-// Match match = new Match("Hemmalag", "Bortalag", "Datum");
+namespace Drommatchen
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 
-// TODO: Anropa match.Presentera()
+            // Skapar matchen
+            Match drommatchen = new Match("FC Barcelona", "Real Madrid", "2009-05-02");
 
-// TODO: Anropa match.AnnounceraMålskytt() med båda spelarna
+            // Skapar två spelare med namn, nummer, antal mål och position
+            Spelare messi = new Spelare("Lionel Messi", 10, "Forward", 2);
+            Spelare raul = new Spelare("Raul Gonzalez", 7, "Forward", 0);
+
+            // Presentererar match
+            drommatchen.Presentera();
+
+            // Målskyttar
+            drommatchen.AnnounceraMålskytt(messi);
+            drommatchen.AnnounceraMålskytt(raul);
+
+            Console.WriteLine();
+
+            //Matchhjälte eller inte
+            Console.WriteLine($"ÄrMatchhjälte - {messi.Namn}: {drommatchen.ArMatchhjalte(messi)}");
+            Console.WriteLine($"ÄrMatchhjälte - {raul.Namn}: {drommatchen.ArMatchhjalte(raul)}");
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
